@@ -8,6 +8,7 @@ html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
   background-color: rgb(240, 240, 240);
+  scroll-behavior: smooth;
 }
 
 li {
@@ -213,6 +214,7 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+
   .fold-content {
     margin: 1%;
     padding-top: 10%;
@@ -263,5 +265,37 @@ a {
 
   .contact-button {
     display: none;
+  }
+
+  #below-fold-specialization {
+    background-color: white;
+    margin-top: 5%;
+  }
+
+  #below-fold-specialization-heading {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20%;
+    font-family: serif;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #below-fold-specialization-text-ul {
+    padding-top: 5%;
+    padding-bottom: 20%;
+  }
+
+  .below-fold-specialization-text-ul-li {
+    font-size: 24px;
+    padding-top: 12.5%;
+    padding-left: 12.5%;
+    color: #616161;
+    list-style: inside;
+    list-style-type: disclosure-closed;
+  }
+
+  .below-fold-specialization-text-ul-li > span {
+    padding-left: 2.5%;
   }
 }

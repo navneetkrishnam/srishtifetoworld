@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="icon" type="image/png" href="./logo.png"/>
+    <link rel="icon" type="image/png" href="./images/logo.png"/>
     <title>Srishti's Feto World</title>
   </head>
 
@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="navbar">
         <div class="logo-class">
-        <span><a href="#" class="nav-logo"><img id="logo-img" src="./logo.png"></a></span>
+        <span><a href="#" class="nav-logo"><img id="logo-img" src="./images/logo.png"></a></span>
           <span id="company-name">Srishti's Feto World<br>Scan Center</span>
         </div>
           <ul class="nav-menu">
@@ -44,21 +44,37 @@
         <button class="contact-button" role="button">Contact</button>
       </div>
       <div class="fold-child" id="fold-content-image">
-        <img src="./fold-pic-min.jpg">
+        <img src="./images/fold-pic-min.jpg">
       </div>
     </div>
     <div id="below-fold-specialization">
       <p id="below-fold-specialization-heading">Specializations</p>
-      <p id="below-fold-specialization-text">
-        <ul id="below-fold-specialization-text-ul">
-          <li class="below-fold-specialization-text-ul-li"><span>NT Scan</span></li>
-          <li class="below-fold-specialization-text-ul-li"><span>Anomaly Scan</span></li>
-          <li class="below-fold-specialization-text-ul-li"><span>Fetal Echocardiography</span></li>
-          <li class="below-fold-specialization-text-ul-li"><span>Fetal Doppler Studying</span></li>
-          <li class="below-fold-specialization-text-ul-li"><span>Multiple Pregnancy</span></li>
-          <li class="below-fold-specialization-text-ul-li"><span>3D & 4D Scan</span></li>
-        </ul>
-      </p>
+      <div id="below-fold-specialization-text">
+        <div class="below-fold-specialization-text-li" id="left_top_corner_tile">
+          <div class="specialization-icon-div" id="nt_scan_id"><img id="nt_scan_img_id" class="specialization-icon" src="./images/nt_scan_plain.png"></div>
+          <div class="specialization-text">NT Scan</div>
+        </div>
+        <div class="below-fold-specialization-text-li" id="middle_top_tile">
+          <div class="specialization-icon-div" id="anomaly_scan_id"><img id="anomaly_scan_img_id" class="specialization-icon" src="./images/anomaly_scan_plain.png"></div>
+          <div class="specialization-text">Anomaly Scan</div>
+        </div>
+        <div class="below-fold-specialization-text-li" id="right_top_corner_tile">
+          <div class="specialization-icon-div" id="fetal_ecg_id"><img id="fetal_ecg_img_id" class="specialization-icon" src="./images/fetal_ecg_plain.png"></div>
+          <div class="specialization-text">Fetal Echocardiography</div>
+        </div>
+        <div class="below-fold-specialization-text-li" id="left_bottom_corner_tile">
+          <div class="specialization-icon-div" id="fetal_doppler_id"><img id="fetal_doppler_img_id" class="specialization-icon" src="./images/fetal_doppler_plain.png"></div>
+          <div class="specialization-text">Fetal Doppler Study</div>
+        </div>        
+        <div class="below-fold-specialization-text-li" id="middle_bottom_tile">
+          <div class="specialization-icon-div" id="multi_pregnancy_id"><img id="multi_pregnancy_img_id" class="specialization-icon" src="./images/multiple_pregnancy_plain.png"></div>
+          <div class="specialization-text">Multiple Pregnancy</div>
+        </div>
+        <div class="below-fold-specialization-text-li" id="right_bottom_corner_tile">
+          <div class="specialization-icon-div"><img id="scan_3d_4d_img_id" class="specialization-icon" src="./images/3d_4d_scan_plain.png"></div>
+          <div class="specialization-text">3D & 4D Scan</div>
+        </div>
+      </div>
     </div>
   </div>
   </body>

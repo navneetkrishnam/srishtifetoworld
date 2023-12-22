@@ -205,7 +205,7 @@ a {
 
 .contact-button:hover,
 .contact-button:active {
-  background-color: initial;
+  background-color: white;
   background-position: 0 0;
   color: #ff4742;
 }
@@ -397,5 +397,29 @@ a {
 
   .below-fold-specialization-text-ul-li > span {
     padding-left: 2.5%;
+  }
+
+
+  #below-fold-specialization-text {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .below-fold-specialization-text-li {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+  }
+
+  #left_bottom_corner_tile, #middle_bottom_tile {
+    border-bottom: 1px;
+    border-color: #ff4742;
+    border-style: dashed;
   }
 }

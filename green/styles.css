@@ -7,7 +7,7 @@
 html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(255 231 231 / 51%);
+  background-color: #ceffd9;
   scroll-behavior: smooth;
 }
 
@@ -78,7 +78,7 @@ a {
 }
 
 .nav-link:hover {
-  color: rgb(203, 18, 12);
+  color: #00721a;
   text-decoration: overline;
 }
 
@@ -178,8 +178,8 @@ a {
 }
 
 .contact-button {
-  background: #ff4742;
-  border: 1px solid #ff4742;
+  background: #00721a;
+  border: 1px solid #00721a;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
@@ -207,7 +207,7 @@ a {
 .contact-button:active {
   background-color: white;
   background-position: 0 0;
-  color: #ff4742;
+  color: #00721a;
 }
 
 .contact-button:active {
@@ -238,7 +238,7 @@ a {
 
 .below-fold-specialization-text-li {
   border-width: 0 1px 1px 0;
-  border-color: #ff4742;
+  border-color: #00721a;
   border-style: dashed;
   font-size: 24px;
   padding: 10% 10% 5% 10%;
@@ -419,7 +419,7 @@ a {
   #left_bottom_corner_tile,
   #middle_bottom_tile {
     border-bottom: 1px;
-    border-color: #ff4742;
+    border-color: #00721a;
     border-style: dashed;
   }
 }

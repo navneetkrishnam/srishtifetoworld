@@ -399,7 +399,6 @@ a {
     padding-left: 2.5%;
   }
 
-
   #below-fold-specialization-text {
     display: grid;
     grid-template-columns: 80%;
@@ -417,7 +416,8 @@ a {
     border-top: 0px;
   }
 
-  #left_bottom_corner_tile, #middle_bottom_tile {
+  #left_bottom_corner_tile,
+  #middle_bottom_tile {
     border-bottom: 1px;
     border-color: #ff4742;
     border-style: dashed;

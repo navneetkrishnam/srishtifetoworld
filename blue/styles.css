@@ -343,6 +343,8 @@ a {
   text-align: center;
   font-family: serif;
   padding-top: 7.5%;
+  border-bottom: 1px white solid;
+  padding-bottom: 5%;
 }
 
 .timings_list {
@@ -354,7 +356,7 @@ a {
 #mon_sat_timings_id {
   font-size: 15px;
   font-weight: light;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
   border-bottom: 0.5px white dashed;
 }
@@ -378,7 +380,7 @@ a {
   font-size: 15px;
   text-align: center;
   font-weight: bold;
-  padding-top: 20%;
+  padding-top: 15%;
   padding-bottom: 5%;
   border-bottom: 0.5px white dashed;
 }
@@ -388,7 +390,7 @@ a {
   padding-top: 5%;
   text-align: center;
   font-weight: light;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .contact_list {
@@ -402,7 +404,7 @@ a {
 #phone_id {
   font-size: 15px;
   font-weight: light;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
   border-bottom: 0.5px white dashed;
 }
@@ -560,5 +562,9 @@ a {
 
   #burger_consultation {
     border-bottom: 0px;
+  }
+
+  #consultant_name_id {
+    padding-top: 10%;
   }
 }

@@ -344,7 +344,7 @@ a {
   text-align: center;
   font-family: serif;
   padding-top: 7.5%;
-  border-bottom: 1px white solid;
+  border-bottom: 10px white groove;
   padding-bottom: 5%;
 }
 
@@ -569,5 +569,9 @@ a {
 
   #consultant_name_id {
     padding-top: 10%;
+  }
+
+  .consultation-heading {
+    border-bottom: 3px white solid;
   }
 }
